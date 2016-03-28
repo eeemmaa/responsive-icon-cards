@@ -20,3 +20,53 @@ html {
 body {
   margin: 0;
 }
+
+.card {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0.5em;
+}
+
+.cards {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-img img {
+  display: block;
+  margin: auto;
+  width: 50px;
+}
+
+.card-body h2 {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.card-body p {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .card {
+    font-size: 110%;
+  }
+
+  .card-img, .card-body {
+    display: inline-block;
+  }
+
+  .card-body {
+    width: 80%;
+    padding-left: 0.5em;
+  }
+
+  .card-body h2 {
+    margin-top: 0;
+  }
+}
